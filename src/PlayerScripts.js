@@ -159,6 +159,9 @@ export const MAIN_SCRIPT = (
     <style>
       body {
         margin: 0;
+        height:100vh;
+        overflow: hidden;
+        position:relative;
       }
       .container {
         position: relative;
@@ -168,13 +171,10 @@ export const MAIN_SCRIPT = (
       }
       .video {
           position: absolute;
-          top: 0;
+          top: -30%;
           left: 0;
           width: 100%;
-          height: 100%;
-      }
-      .ytp-expand-pause-overlay .ytp-pause-overlay {
-          z-index: -1;
+          height: 160%;
       }
     </style>
   </head>
